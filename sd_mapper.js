@@ -15,7 +15,7 @@
 var thisTime = new Date();
 
 // Used the toLocaleString() to save the text of the thisTime variable in the timeStr variable. 
-var timeStr = thisTime.toLocaleTimeString();
+var timeStr = thisTime.toLocaleString();
 
 // Changes the inner HTML code of the element with the ID timestamp to the value of the timeStr variable. 
 document.getElementById("timeStamp").innerHTML = timeStr;
